@@ -1,19 +1,43 @@
 body {
-    background-color: #010101;
-    border: 5px solid #059033;
+    background-color: #101010;
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* fade in everything */
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+/* keyframes for the fade-in */
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 h1 {
-    color: white; 
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+    margin-top: 10%;
 }
-hr {
-    height: 3px;
-    color:#059033;
-    background-color: #059033;
+h2 {
+    margin-top: -1%;
+    font-family: 'Times New Roman', Times, serif;
+}
+h6 {
+    margin-top: -1.8%;
+    margin-left: 13.3%;
 }
 p {
-    color: white; 
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #e7e7e7;
+}
+a {
+    color: #0077aa;
+}
+hr {
+    color: #ffffff;
+    background-color: #ffffff;
+    margin-left: 0;
+    height: 2px;
+    width: 600px;
 }
